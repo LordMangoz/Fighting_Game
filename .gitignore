@@ -1,15 +1,37 @@
-# System and IDE files
-Thumbs.db
+# Logs and temp
+*.log
+*.tmp
+
+# Dependency caches
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Env/config
+.env
+.env.*
+
+# OS files
 .DS_Store
-.idea
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
 *.suo
 *.sublime-project
 *.sublime-workspace
-*.vscode
+*.swp
 
 # Vendors
 node_modules/
 
-# Build
+# Build outputs
 dist/
-/npm-debug.log
+build/
+public/build/
+out/
+coverage/
+.cache/
+.tmp/
+npm-debug.log
