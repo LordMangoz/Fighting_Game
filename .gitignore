@@ -1,1 +1,37 @@
-"node_modules/" 
+# Logs and temp
+*.log
+*.tmp
+
+# Dependency caches
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Env/config
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Vendors
+node_modules/
+
+# Build outputs
+dist/
+build/
+public/build/
+out/
+coverage/
+.cache/
+.tmp/
+npm-debug.log
